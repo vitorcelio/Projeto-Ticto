@@ -1,0 +1,11 @@
+:root {
+    --cor-gradiente: linear-gradient(262.46deg, #FF9C2B 0%, #FF2689 66.33%, #9747FF 100%);
+    --cor-text: #E7E9EB;
+    --cor-background-branco: #FDFDFD;
+    --cor-background-preto: #000000;
+    --cor-box-carrossel: #E6E6E681;
+    --cor-preco-comissao: #6AD18E;
+    --cor-borda-preto: #474747;
+    --cor-borda-preco: rgba(125, 125, 125, 0.294);
+    --cor-questoes: #757575;
+}

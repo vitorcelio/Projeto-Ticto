@@ -1,0 +1,423 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .home .video iframe {
+    width: 120vw;
+  }
+
+  .quem-somos .container .info {
+    gap: 6rem;
+  }
+
+  .servicos .container .info .title {
+    max-width: 45rem;
+  }
+
+  .passos .container .passo-conta .passo {
+    padding: 2.4rem;
+  }
+}
+
+@media (max-width: 834px) {
+  .home .video iframe {
+    width: 140vw;
+  }
+
+  .passos .container .info {
+    align-items: center;
+  }
+
+  .passos .container .info h2 {
+    text-align: center;
+  }
+
+  .passos .container .passo-conta {
+    flex-direction: column;
+  }
+
+  .passos .container .passo-conta .passo {
+    max-width: 100%;
+  }
+
+  .passos .container .passo-conta .passo > div h3 {
+    width: 100%;
+  }
+
+  .passos .container .passo-conta .passo > div img {
+    transform: rotate(90deg);
+  }
+
+  .passos .container .passo-conta .passo:last-child > div img {
+    transform: rotate(0deg);
+  }
+
+  .faq .container {
+    flex-direction: column;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    gap: 9.6rem;
+  }
+
+  .faq .container .info {
+    max-width: 100%;
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .faq .container .info > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .faq .container .info > div h2 {
+    text-align: center;
+  }
+
+  .faq .container .questoes {
+    max-width: 100%;
+    padding: 0 2.4rem;
+  }
+
+  .app .container {
+    gap: 2rem;
+  }
+
+  .app .container .info {
+    gap: 2rem;
+  }
+
+  .app .container .info .download .lojas {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4.8rem;
+    line-height: 5.4rem;
+  }
+
+  h1 > strong {
+    font-size: 4.8rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--cor-text);
+  }
+
+  h2 > strong {
+    font-size: 2.4rem;
+  }
+
+  .home .container {
+    gap: 3.9rem;
+    height: 100vh;
+  }
+
+  .home .container header div .btn-primary {
+    display: none;
+  }
+
+  .home .container .info {
+    padding-bottom: 12rem;
+    flex-direction: column;
+  }
+
+  .home .container .info .title,
+  .servicos .container .info .title {
+    max-width: 100%;
+  }
+
+  .home .container .info .title .span-info {
+    display: none;
+  }
+
+  .home .container .info .title h1,
+  .home .container .info .description p {
+    text-align: center;
+  }
+
+  .home .container .info .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home .video iframe {
+    width: 170vw;
+  }
+
+  .funcionalidades {
+    margin-top: 0;
+  }
+
+  .funcionalidades .container .title,
+  .quem-somos .container .info .title {
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .funcionalidades .container .title h2 {
+    text-align: center;
+  }
+
+  .funcionalidades .funcao .container {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .funcionalidades .funcao .container .info {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .funcionalidades .funcao:last-child .container .info {
+    max-width: 100%;
+  }
+
+  .funcionalidades .funcao .container .info > p {
+    text-align: center;
+  }
+
+  .quem-somos .container,
+  .servicos .container {
+    padding-top: 7rem;
+  }
+
+  .quem-somos .container .info {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .quem-somos .container .info .title {
+    margin-bottom: 0;
+  }
+
+  .quem-somos .container .info .title h2,
+  .quem-somos .container .info .title h2 strong,
+  .servicos .container .info .title h2 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .quem-somos .container .info .description {
+    text-align: center;
+  }
+
+  .servicos .container .info {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .servicos .container .info .title {
+    align-items: center;
+  }
+
+  .servicos .carrossel {
+    gap: 1.9rem;
+  }
+
+  .servicos .carrossel .box {
+    max-width: 28.8rem;
+    min-width: 28.8rem;
+    height: 36.3rem;
+    padding: 3.6rem;
+  }
+
+  .servicos .carrossel .box:first-child {
+    margin-left: 1.9rem;
+  }
+
+  .servicos .carrossel .box:last-child {
+    margin-right: 1.9rem;
+  }
+
+  .servicos .carrossel .box header h5,
+  .servicos .carrossel .box header div span {
+    font-size: 0.933rem;
+  }
+
+  .servicos .carrossel .box .info img {
+    width: 3.6rem;
+  }
+
+  .servicos .carrossel .box .info h4 {
+    font-size: 1.58rem;
+  }
+
+  .servicos .carrossel .box .info p {
+    font-size: 1.1rem;
+  }
+
+  .precificacao .container,
+  .passos .container,
+  .ferramentas .container {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .precificacao .container .info {
+    margin-bottom: 7.6rem;
+  }
+
+  .precificacao .container .preco {
+    height: 40.8rem;
+  }
+
+  .precificacao .container .preco .body {
+    max-width: 38.1rem;
+    padding: 1.7rem 0;
+  }
+
+  .precificacao .container .preco .body h4 {
+    font-size: 1.92rem;
+  }
+
+  .precificacao .container .preco .body .porcentagem h3 {
+    font-size: 3.2rem;
+  }
+
+  .precificacao .container .preco .body .porcentagem > p {
+    font-size: 1.5rem;
+  }
+
+  .precificacao .container .preco ul li p {
+    font-size: 1.18rem;
+  }
+
+  .depoimentos {
+    background-position: center;
+  }
+
+  .depoimentos .container {
+    padding-top: 7rem;
+    padding-bottom: 5.2rem;
+  }
+
+  .depoimentos .pessoas {
+    flex-direction: column;
+    padding-bottom: 7rem;
+  }
+
+  .depoimentos .pessoas .carrossel {
+    max-width: 100%;
+    -webkit-mask-image: linear-gradient(
+      to left,
+      transparent,
+      black 5rem,
+      black calc(100% - 5rem),
+      transparent
+    );
+    mask-image: linear-gradient(
+      to left,
+      transparent,
+      black 5rem,
+      black calc(100% - 5rem),
+      transparent
+    );
+  }
+
+  .depoimentos .pessoas .frase {
+    height: 100%;
+    max-width: 100%;
+    padding: 0 1.5rem;
+    gap: 2.4rem;
+  }
+
+  .app {
+    padding-top: 0;
+  }
+
+  .app .container {
+    padding-top: 7rem;
+    border: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    height: 100%;
+  }
+
+  .app .container .title {
+    align-items: center;
+    height: auto;
+    margin-bottom: 4.8rem;
+  }
+
+  .app .container .title h2,
+  .app .container .title h2 strong {
+    text-align: center;
+    line-height: 3.2rem;
+  }
+
+  .app .container .info {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    gap: 4.8rem;
+  }
+
+  .app .container .info .celular {
+    max-width: 90%;
+    height: 40rem;
+    order: 2;
+  }
+
+  .app .container .info .download {
+    padding: 0 4rem;
+  }
+
+  .app .container .info .download .lojas {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .app .container .info .download p {
+    text-align: center;
+  }
+
+  footer .container .info {
+    flex-direction: column;
+    align-items: center;
+    gap: 6.4rem;
+  }
+
+  footer .container .info .title h2,
+  footer .container .info .title p {
+    text-align: center;
+  }
+
+  footer .container .info .criar-conta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .container .copy {
+    flex-direction: column;
+    gap: 1.68rem;
+  }
+
+  footer .container .copy p {
+    font-size: 1.18rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .home .video iframe {
+    width: 200vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .home .video iframe {
+    width: 250vw;
+  }
+}

@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "TomatoGrotesk";
+  src: url(../fonts/TomatoGrotesk-Bold.woff2) format("woff2"),
+    url(../fonts/TomatoGrotesk-Bold.woff) format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TomatoGrotesk";
+  src: url(../fonts/TomatoGrotesk-Medium.woff2) format("woff2"),
+    url(../fonts/TomatoGrotesk-Medium.woff) format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TomatoGrotesk";
+  src: url(../fonts/TomatoGrotesk-Regular.woff2) format("woff2"),
+    url(../fonts/TomatoGrotesk-Regular.woff) format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TomatoGrotesk";
+  src: url(../fonts/TomatoGrotesk-Light.woff2) format("woff2"),
+    url(../fonts/TomatoGrotesk-Light.woff) format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 400;
+  color: var(--cor-text);
+  line-height: 8.1rem;
+}
+
+h1 > strong {
+  font-size: 8rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.68rem;
+  font-weight: 400;
+  color: var(--cor-text);
+}
+
+h2 > strong {
+  font-size: 3.68rem;
+}
+
+h3 {
+  font-size: 2.94rem;
+  font-weight: 400;
+  color: var(--cor-text);
+}
+
+h3 > strong {
+  font-size: 2.94rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 128.3rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.span-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.3rem;
+}
+
+.span-info div {
+  width: 0.6rem;
+  height: 0.84rem;
+  background-image: var(--cor-gradiente);
+}
+
+.span-info span {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  background-image: var(--cor-gradiente);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.span-info.claro span,
+.span-info.escuro span {
+  font-weight: 400;
+  font-size: 1.28rem;
+  background-image: none;
+}
+
+.span-info.claro span {
+  -webkit-text-fill-color: var(--cor-background-branco);
+  color: var(--cor-background-branco);
+}
+
+.span-info.escuro span {
+  -webkit-text-fill-color: var(--cor-background-preto);
+  color: var(--cor-background-preto);
+}
+
+.text-gradiente {
+  background-image: var(--cor-gradiente);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: var(--cor-background-branco);
+  padding: 0.8rem 2rem;
+  border: 1px solid var(--cor-borda-preto);
+  border-radius: 4.8rem;
+  transition: all 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.btn-primary:hover {
+  background-color: var(--cor-background-branco);
+  color: var(--cor-background-preto);
+}
+
+.btn-secondary {
+  font-weight: 300;
+  background-image: linear-gradient(
+    270deg,
+    #ff9c2b 0%,
+    #ff2689 66.33%,
+    #9747ff 100%
+  );
+  background-origin: border-box;
+  box-shadow: inset 1px 1000px 1px black;
+  color: var(--cor-background-branco);
+  padding: 1.2rem 2rem;
+  border: 1px solid transparent;
+  border-radius: 4.8rem;
+  transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+  background-image: linear-gradient(
+    270deg,
+    #ff9c2b 0%,
+    #ff2689 66.33%,
+    #9747ff 100%
+  );
+  box-shadow: none;
+}
+
+.btn-tertiary {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.78rem;
+  border-radius: 4.8rem;
+  width: 15rem;
+  max-width: 40rem;
+  padding: 0.8rem 0;
+  transition: all 0.2s;
+}
+
+.btn-tertiary:hover {
+  width: 17.5rem;
+  padding-left: 2.4rem;
+  background-image: var(--cor-gradiente);
+}
+
+.btn-tertiary p {
+  font-size: 1.44rem;
+  color: var(--cor-background-preto);
+}
+
+.btn-tertiary:hover p {
+  color: var(--cor-background-branco);
+}
+
+.btn-tertiary img {
+  padding: 0.8rem 2.4rem;
+  background-image: var(--cor-gradiente);
+  border-radius: 1.6rem;
+}
+
+.btn-tertiary:hover img {
+  background-image: none;
+  border-radius: 0;
+}
+
+.bg-roxo-azul {
+  background-color: black;
+  background-image: url(../img/section-roxo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-amarelo-roxo {
+  background-color: black;
+  background-image: url(../img/section-amarelo-roxo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.scrollbar-hidden {
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  width: 0;
+}
+
+.scrollbar-hidden::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
